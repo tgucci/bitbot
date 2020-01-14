@@ -1,5 +1,9 @@
-## Setting up BitBot
+## Setting up BitBot on Linux
 
+### Prerequisits
+* An up-to-date Linux
+
+### Instructions
 * Move `docs/bot.conf.example` to `~/.bitbot/bot.conf` and fill in the config options you care about. Ones blank or removed will disable relevant functionality.
 * Run `./bitbotd -a` to add a server.
 * Run `./bitbotctl command master-password` to get the master admin password (needed to add regular admin accounts)
